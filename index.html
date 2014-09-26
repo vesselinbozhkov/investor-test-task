@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--[if lte IE 8]><script>(function(){var element = "header,section,article,nav,aside,hgroup,figure,figcaption,footer,mark,time".split(','), l = element.length;while (l > 0){l = l - 1; document.createElement(element[l]);}} )();</script><![endif]-->
+	<!--[if lte IE 8]><style>.menu-wrapper li a {font-size: 20px;}<![endif]-->
+	</style>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Test page</title>
+	<link rel="stylesheet" href="stylesheets/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<header>
+		<nav>
+		<div class="center-content menu-wrapper">
+			<ul class="center-content">
+				<li><a href="">начало</a></li>
+				<li><a href="">за нас</a></li>
+				<li><a href="">за района</a></li>
+				<li class="float-right en-button"><button>En</button></li>
+				<li class="float-right last-menu-element"><a href="">галерия</a></li>
+				<li class="float-right"><a href="">меню</a></li>
+				<li class="float-right"><a href="">контакти</a></li>
+			</ul>
+			<a href="#"><img src="img/logo.png" alt="" id="logo"></a>
+		</div>
+
+		</nav>
+	</header>
+	<div id="content-wrapper">
+		<div id="left-pic">
+			<img src="img/left-pic.jpg">
+		</div>
+		<!--[if lte IE 8]><div id="hold-and-drag" class="not-supported"><![endif]-->
+		<!--[if gt IE 8]><!-->
+		<div id="hold-and-drag">
+		<!--<![endif]-->
+			<div id="left-arrow"></div>
+				<em unselectable="on">Задръж <br> и движи</em>
+				<div id="left-movement-zone" class="movement-zone" direction="left"></div>
+				<div id="down-movement-zone" class="movement-zone" direction="down"></div>
+				<div id="right-movement-zone" class="movement-zone" direction="right"></div>
+				<div id="up-movement-zone" class="movement-zone" direction="up"></div>
+
+				<div class="arrow" id="move-arrow-left"></div>
+				<div class="arrow" id="move-arrow-down"></div>
+				<div class="arrow" id="move-arrow-right"></div>
+				<div class="arrow" id="move-arrow-up"></div>
+			<div id="right-arrow"></div>
+		</div>
+		<div id="right-pic">
+			<img src="img/right-pic.jpg">
+			<p>Нашата градина</p>
+		</div>
+		<div class="center-content sections-content">
+			<div id="sections-wrapper">
+				<section id="left-section">
+					<h2>За ресторанта</h2>
+					<img src="img/left-section-image.png" alt="">
+					<p>
+				     Lorem Ipsum is simply dummy text     
+				      of the printing and typesetting 
+				     industry. Lorem Ipsum has been the 
+				    industry's standard dummy text ever 
+					since the 1500s, when an 
+					</p>
+					<a href="#">Повече информация >></a>
+				</section>
+				<section id="middle-section">
+					<h2>
+						Меню
+					</h2>
+					<img src="img/middle-section-image.png" alt="">
+					<p>
+				     Lorem Ipsum is simply dummy text     
+				      of the printing and typesetting 
+				     industry. Lorem Ipsum has been the 
+				    industry's standard dummy text ever 
+					since the 1500s, when an
+					</p>
+					<a href="#">Повече информация >></a>
+				</section>
+				<section id="right-section">
+					<h2>Препоръки</h2>
+				</section>
+			</div>			
+		</div>
+	</div>
+
+	<footer>
+		<div class="center-content">
+			<div id="footer-upper">
+				<div id="footer-left">
+					<div>
+						<p id="footer-upper-row">
+							<img src="img/location.png" alt="">
+							Очакваме ви в гр. Хисар <br>
+							<span>на адрес <strong>Бул. “Ген. Гурко” №12</strong></span>
+						</p>
+					</div>
+					<div> 
+						<p id="footer-bottom-row">
+							0337/ 6 25 80   /   0887 663 228   /   0887 310 092   /   rest_national@abv.bg
+						</p>
+					</div>
+				</div>
+				<div id="footer-right">
+					<img src="" alt="">
+					<img src="" alt="">
+				</div>	
+			</div>
+		</div>
+		</div>
+		<div id="footer-bottom">
+				<p class="center-content">Всички права запазени © 2012 РЕСТОРАНТ - ГРАДИНА НАЦИОНАЛ</p>
+		</div>
+		<!--[if gt IE 8]><!-->
+		<script src="scripts/jquery-1.11.1.min.js"></script>
+		<script src="scripts/movement.js"></script>	
+		<!--<![endif]-->
+	</footer>
+</body>
+</html>
